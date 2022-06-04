@@ -1,6 +1,3 @@
-from xml.dom.minidom import Notation
-
-
 class Alummno:
     nombre=""
     nota=0.0
@@ -16,5 +13,7 @@ class Alummno:
 estudiante1=Alummno("andres",25)
 a=estudiante1.definitiva()
 print(a)
+
+
 
 
