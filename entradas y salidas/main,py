@@ -1,0 +1,15 @@
+from clasevehiculo import vehiculo
+
+
+def main():
+    car1=vehiculo("chevrolet",2020,"blue",4,5)
+    car1.caracteristicas()
+    dato=open("da.txt",'w+')
+    dato.write(str(car1.caracteristicas()))
+    dato.close
+    dato=open("da.txt",'r+')
+    dato.read()
+    dato.close
+    pass
+if __name__=='__main__':
+    main()
