@@ -1,0 +1,6 @@
+print("Digita en una lista la serie de paises separalos con una coma \n")
+paises=input()
+paise=paises.split(",")
+print(paises,"hola",type(paise))
+listadepaises=set(paise)
+print("la lista de paises es \n",list(listadepaises))
