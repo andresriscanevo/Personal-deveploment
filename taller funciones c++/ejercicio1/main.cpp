@@ -9,18 +9,22 @@ using namespace std;
 
 void funcion(){
     int a,b,c;
-    cout << "digita tres numeros\n";
-    cin>>a,b,c;
-    if (a>b && a>c){
-        if (b>c){
+    cout << "digita el primer numero\n";
+    cin>>a;
+    cout<< "digita el segundo numero\n";
+    cin>>b;
+    cout<< "digita el tercer numero\n";
+    cin>>c;
+    if (a>=b && a>=c){
+        if (b>=c){
             cout<<"el orden es "<<c<<" "<<b<<" "<<a<<"\n";
         }
         else {
             cout<<"el orden es "<<b<<" "<<c<<" "<<a<<"\n";
         }
     }
-    else if (b>a && b>c){
-        if (c>a){
+    else if (b>=a && b>=c){
+        if (c>=a){
             cout<<"el orden es "<<a<<" "<<c<<" "<<b<<"\n";
         }
         else{
@@ -28,8 +32,8 @@ void funcion(){
         }
         
     }
-    else if(c>a && c>b){
-        if (b>a){
+    else if(c>=a && c>=b){
+        if (b>=a){
             cout<<"el orden es "<<a<<" "<<b<<" "<<c<<"\n";
         }
         else{
